@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+.saldo-box {
+    background: #e3f2ff;
+    border-left: 5px solid #2196f3;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.saldo-box form input {
+    padding: 8px;
+    margin-right: 5px;
+}
+
+button, .btn {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    background: #2196f3;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn.borrar {
+    background: #f44336;
+}
+
+.pedido-form .item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+select, input[type="number"] {
+    padding: 8px;
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+table th {
+    background: #2196f3;
+    color: white;
+    padding: 10px;
+}
+
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.crear {
+    margin-top: 15px;
+    background: #4caf50;
+}
